@@ -19,18 +19,18 @@ body{
 .card{
     background: hsl(0, 0%, 100%);
     border-radius: 20px;
-    height: 385px;
-    width: 300px;
-    padding-top: 15px;
-    padding-left: 15px;
+    height: 475px;
+    width: 350px;
+    padding-top: 20px;
+    padding-left: 20px;
     border: 1px solid hsl(0, 0%, 7%);
     box-shadow: 6px 6px 1px rgba(0, 0, 0, 3);
 }
 
 .img1{
-    width: 270px;
+    width: 310px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 22px;
 }
 
 .learning{
@@ -38,23 +38,23 @@ body{
     padding: 5px 10px;
     font-weight: 600;
     border: none;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
     background:hsl(47, 88%, 63%) ;
 }
 
 .date{
-    margin-bottom: 7px;
+    margin-bottom: 15px;
     font-weight: 600;
 }
 
 .h2{
     font-weight: 700;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
 }
 
 .description{
     padding-right: 30px;
-    margin-bottom: 12px;
+    margin-bottom: 22px;
 }
 
 .img2{
@@ -76,5 +76,5 @@ body{
 }
 
 .card:hover{
-    box-shadow: 10px 10px 1px rgba(0, 0, 0, 3);
+    box-shadow: 12px 12px 1px rgba(0, 0, 0, 3);
 }
