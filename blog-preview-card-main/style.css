@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,600;0,700;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(47, 88%, 63%);
+    font-family: "Figtree" ;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    height: 475px;
+    width: 375px;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 6px 6px 1px rgba(0, 0, 0, 3);
+}
+
+.img1{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.learning{
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 10px;
+    background:hsl(47, 88%, 63%) ;
+}
+
+.date{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.h2{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.description{
+    padding-right: 30px;
+    margin-bottom: 22px;
+}
+
+.img2{
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-top: -5px;
+    
+}
+
+.name{
+    font-weight: 700;
+}
+
+.h2:hover{
+    cursor: pointer;
+    color:hsl(47, 88%, 63%) ;
+}
+
+.card:hover{
+    box-shadow: 12px 12px 1px rgba(0, 0, 0, 3);
+}
